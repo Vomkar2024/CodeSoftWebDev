@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: orange;
+    color: black;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 1.05rem;
+}
+
+.left:hover {
+    color: white;
+
+}
+
+main hr {
+    border: 0;
+    background: rgb(172, 158, 133);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.left-section {
+    /* background-color: red; */
+    font-size: 2.5rem;
+    margin: 70px 0;
+
+}
+
+.left-section .button {
+    padding: 50px 0;
+}
+
+.left-section .btn {
+    padding: 12px;
+    background: rgb(147, 113, 49);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.purpul {
+    color: orange;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: orange;
+}
+
+.right-section img {
+    width: 70%;
+    margin: 50px 0;
+    border-radius: 50%;
+    border: 4px solid rgb(241, 238, 231);
+
+}
+
+/* second section */
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 165vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.img-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    padding-left: 0.2rem;
+    position: relative;
+    top: 80px;
+    width: 200px;
+    color: orange;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+footer {
+    background-color: rgb(141, 95, 11);
+    /* height: 233px; */
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 100px;
+}
+
+.icon-1:hover {
+    color: blue;
+}
+
+.icon-2:hover {
+    color: rgb(0, 195, 255);
+}
+
+.icon-4:hover {
+    color: rgb(255, 0, 144);
+}
+
+.icon-5:hover {
+    color: rgb(68, 68, 218);
+}
